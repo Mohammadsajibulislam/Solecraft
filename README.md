@@ -1,16 +1,63 @@
-# React + Vite
+# Solecraft
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Solecraft is a footwear storefront concept for considered, long-lasting shoes. Browse a curated collection of sneakers, boots, trail shoes, formal styles, and sandals.
 
-Currently, two official plugins are available:
+## Links
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Live demo:** [solecraft-sandy.vercel.app](https://solecraft-sandy.vercel.app/)
+- **GitHub repository:** [Mohammadsajibulislam/Solecraft](https://github.com/Mohammadsajibulislam/Solecraft)
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Browse products by category
+- Search, sort, and filter the collection
+- Save favorite products during your visit
+- Open product quick views with details, colors, and sizes
+- Responsive storefront layout with product, craft, and review sections
 
-## Expanding the ESLint configuration
+> This is a front-end demo with a static product catalogue. It does not include a backend, persistent favorites, cart, or checkout.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Built with
+
+- React
+- Vite
+- Tailwind CSS
+
+## Getting started
+
+You will need Node.js and npm installed.
+
+```bash
+# Clone the repository
+git clone https://github.com/Mohammadsajibulislam/Solecraft.git
+cd Solecraft
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+Open the local URL printed by Vite in your terminal.
+
+## Available scripts
+
+| Command | Description |
+| --- | --- |
+| `npm run dev` | Start the local development server |
+| `npm run build` | Create a production build in `dist/` |
+| `npm run preview` | Preview the production build locally |
+| `npm run lint` | Run ESLint |
+
+## Project structure
+
+```text
+src/
+  components/  Storefront sections and reusable UI
+  data/        Product, category, and page content
+  hooks/       UI state hooks
+  utils/       Shared utility functions
+public/
+  images/      Product and storefront images
+```
