@@ -127,7 +127,8 @@ export default function QuickViewModal({
           </div>
 
           <div className="p-6 md:p-9">
-            <div className="flex items-center justify-between gap-3">
+            {/* pr clears the floating close button on the top-right */}
+            <div className="flex items-center justify-between gap-3 pr-8 md:pr-14">
               <span className="font-mono text-[9px] uppercase tracking-[0.16em] text-muted">
                 {product.categoryLabel}
               </span>
