@@ -61,3 +61,10 @@ src/
 public/
   images/      Product and storefront images
 ```
+
+## Deployment
+
+The project builds to static files in `dist/`, so any static host works.
+
+- **Vercel** (used for the live demo): `npx vercel --prod`
+- **Netlify**: build command `npm run build`, publish directory `dist`
